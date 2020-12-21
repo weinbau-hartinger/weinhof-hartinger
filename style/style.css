@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,600&display=swap');
+
+body, p, h3, h4, a {
+	font-family: 'Open Sans', sans-serif;
+	color: #3d3f3e;
+}
+body * {
+	box-sizing: border-box;
+}
+body
+{
+    font-size: 20px;
+	line-height: 1.8;
+	/*background: url(../pics/verlauf.png) repeat-y rgb(255,255,153);*/
+    margin: 0px;
+	background-color: rgb(194,226,131);
+}
+p
+{
+	font-size: 20px;
+    margin-top: 0px;
+	font-weight: 300;
+}
+h3
+{
+	font-family: 'Raleway', sans-serif;
+    font-size: 62px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+}
+h4
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+}
+#navigation a {
+	font-family: 'Raleway', sans-serif;
+	text-decoration:none;
+	color: #646363;
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	
+}
+#navigation li:hover a, #navigation li.active a {
+	color: #3d3f3e;
+}
+
+#footer .footertxt
+{
+	color: #3d3f3e;
+}
+#footer .footertxt a
+{
+	font-weight: 300;
+}
+
+b, a {
+	font-weight: 700;
+}
+a:hover {
+	color: rgb(132,196,84);
+}
+
+
+/* div specific */
+#intro
+{
+    width: 100%;
+    position: relative;
+    border-bottom: darkgreen solid 5px;
+		
+
+    /*background: url(../pics/header_left.png) no-repeat;*/
+}
+	
+#maxim
+{
+	position: relative;
+	height: 200px;
+	left: 281px;
+	display: none;
+}
+#header
+{
+	padding: 0 50px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+#header .logo {
+	margin: 20px 0;
+}
+#header .logo img
+{
+	height: 150px;
+	margin-right: 50px;
+}
+#header .gallery .picture
+{
+	width: 120px;
+	height: 120px;
+	border: 6px solid darkgreen;
+	margin-left: 20px;
+	display: inline-block;
+		overflow: hidden;
+}
+
+#header .gallery .picture img
+{
+	width: 160%;
+}
+#header .header-picture {
+	height: 201px;
+}
+#header .header-picture img {
+	max-height: 100%;
+}
+#content
+{
+    position: relative;
+    margin-left: 200px;
+    top: 0px;
+    border-left: darkgreen solid 5px;
+	padding: 40px 70px;
+	border-bottom: 5px solid darkgreen;
+
+	background-color: #ecf8d6;
+	
+
+}
+#facebook
+{
+	position: absolute;
+	width: 135px;
+	height: 45px;
+	left: 40px;
+	top: 500px;
+}
+#facebook:hover
+{
+	background: rgb(132,196,84);
+	border:thin;
+}
+#navigation
+{
+    width: 200px;
+    position: absolute;
+    top: 206px;
+	background-color: rgb(194,226,131);
+}
+
+
+#navigation ul
+{
+	position: relative;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+#navigation li
+{
+    /* background: url(../pics/verlauf2s.png) no-repeat; */
+	/* background: rgb(132,196,84); */
+    position: relative;
+    list-style-type: none;
+	padding: 15px 0 15px 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #3ab539;
+}
+#navigation li:hover, #navigation li.active
+{
+    /* background: url(../pics/verlaufs.png) no-repeat; */
+	background: rgb(132,196,84);
+	cursor: pointer;
+}
+
+#contentText
+{
+	max-width: 1000px;
+}
+#contentText .name
+{
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: 700;
+	color: darkgreen;
+}
+#contentText .prod
+{
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 20px;
+}
+figure.contentimg {
+	margin: 40px 0;
+	position:relative;
+	margin-bottom: 60px;
+}
+figure.contentimg img {
+	width: 100%;
+}
+figure.contentimg figcaption {
+	width: 90%;
+	position: absolute;
+	bottom: -10px;
+	left: 5%;
+	background-color: #ecf8d6;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: 400;
+	text-align: center;
+}
+figure.contentimg figcaption span {
+	display: inline-block;
+	border-bottom: 2px solid green;
+	padding: 0 5px 10px 5px;
+}
+/*figure.contentimg figcaption::after {
+	content: "";
+	display:block;
+	border-top: 2px solid green;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 10px;
+}*/
+.callToAction {
+	border: darkgreen solid 1px;
+	padding: 30px 50px;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+	background-color: #f4f8ea;
+	box-shadow: -10px -10px 0 darkgreen;
+	margin: 50px 0;
+}
+.callToAction p {
+	font-size: 24px;
+}
+p.emphasis {
+	border-left: darkgreen solid 5px;
+	font-size:24px;
+	padding-left: 25px;
+	font-weight: 400;
+}
+#contentText .pr
+{
+	margin-top: -10px;
+	font-weight: 700;
+	font-size: 13px;
+	color: darkgreen;
+}
+#contentText .preis
+{
+	font-size: 14px;
+	color: darkgreen;
+	text-align:right;
+}
+#footer
+{
+	margin: 0;
+	padding: 30px 2px 2px 20px;
+	padding-left: 200px
+}
+iframe {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+table {
+	border-collapse: collapse;
+	border:1px solid #3d3f3e;
+	width: 100%;
+	margin-bottom: 60px;
+}
+table tr{
+	border-bottom: 1px solid #3d3f3e;
+}
+table tr.pricing {
+	background-color: #f4f8ea;
+}
+table tr.pricing td:last-child, table th:last-child {
+	max-width: 120px;
+}
+table tr.pricing:not(:last-child) {
+	border-bottom: 1px solid rgb(194,226,131);
+}
+table tr.pricing td:first-child p, table th p {
+	font-weight: 700;
+}
+table tr.pricing td:first-child {
+	width: 60%;
+}
+table p {
+	margin: 0;
+}
+table td, table th {
+	padding: 10px 20px;
+}
+table th{
+	text-align: left;
+	background-color: rgb(194,226,131);
+}
+table tr.description {
+	border-top: 1px solid #3d3f3e;
+}
+table tr.pricing td p, table tr.heading th p {
+	text-align: right;
+}
+table tr.pricing td:first-child p, table tr.heading th:first-child p {
+	text-align: left;
+}
+.pic1
+{
+	position: absolute;
+	left: 398px;
+	top: 0;
+	width: 91px;
+	height: 150px;
+}
+.pic2
+{
+	position: absolute;
+	left: 517px;
+	top: 0;
+	width: 91px;
+	height: 150px;
+}
+.pic3
+{
+	position: absolute;
+	left: 638px;
+	top: 0;
+	width: 91px;
+	height: 150px;
+}
+.pic4
+{
+	position: absolute;
+	left: 751px;
+	top: 0;
+	width: 91px;
+	height: 150px;
+}
+.pic5
+{
+	position: absolute;
+	left: 857px;
+	top:0;
+	width: 91px;
+	height: 150px;
+}

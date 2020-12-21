@@ -1,0 +1,232 @@
+body
+{
+    font: 8pt/16pt georgia;
+    color: black;
+	background: url(../pics/verlauf.png) repeat-y rgb(255,255,153);
+    margin: 0px;
+}
+p
+{
+    font: 8pt/16pt georgia;
+    margin-top: 0px;
+    text-align: justify;
+}
+h3
+{
+    font: italic normal 12pt georgia;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+/* div specific */
+#intro
+{
+    width: 100%;
+    position: relative;
+    height: 150px;
+    border-bottom: darkgreen solid 5px;
+    background: url(../pics/header_left.png) no-repeat;
+}
+	
+#maxim
+{
+	width: 669px;
+	position: relative;
+	height: 150px;
+	left: 281px;
+}
+#header
+{
+	display: none; 
+}
+#content
+{
+    position: relative;
+    width: 600px;
+    left: 200px;
+    top: 40px;
+    border-left: darkgreen solid 5px;
+}
+html > body #content
+{
+    top: 0;
+}
+#facebook
+{
+	position: absolute;
+	width: 135px;
+	height: 45px;
+	left: 40px;
+	top: 500px;
+}
+#facebook:hover
+{
+	background-color:#FFF;
+	border:thin;
+}
+#navigation
+{
+    width: 200px;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    font-family: sans-serif;
+}
+#navigation a:link
+{
+    color: green;
+    text-decoration: none;
+    font-size: 12pt;
+}
+#navigation a:visited
+{
+	color: green;
+	text-decoration: none;
+	font-size: 12pt;
+}
+#navigation a:hover
+{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12pt;
+}
+#navigation a:active
+{
+	color: green;
+	text-decoration: none;
+	font-size: 12pt;
+}
+#navigation ul
+{
+	position: relative;
+	width: 110px;
+	top: 80px;
+	left: 5px;
+	border: none;
+}
+#navigation li
+{
+    line-height: 4ex;
+    background: url(../pics/verlauf2s.png) no-repeat;
+    position: relative;
+    list-style-type: none;
+	left: -20px;
+	width: 140px;
+	padding: 4px;
+	cursor: pointer;
+}
+#navigation li:hover
+{
+    line-height: 4ex;
+    background: url(../pics/verlaufs.png) no-repeat;
+    position: relative;
+	left: -20px;
+	width: 140px;
+	padding: 4px;
+	cursor: pointer;
+}
+#contentText
+{
+	position: relative;
+	left: 100px;
+}
+#contentText h3
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: darkgreen;
+	margin-bottom: 30px;
+}
+#contentText h4
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: darkgreen;
+}
+#contentText .contenttxt
+{
+	font-size: 13px;
+	color: darkgreen;
+}
+#contentText .name
+{
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: bold;
+	color: darkgreen;
+}
+#contentText .prod
+{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 20px;
+}
+#contentText .pr
+{
+	margin-top: -10px;
+	font-weight: bold;
+	font-size: 13px;
+	color: darkgreen;
+}
+#contentText .preis
+{
+	font-size: 14px;
+	color: darkgreen;
+	text-align:right;
+}
+#footer
+{
+	border: green;
+	margin: 150px;
+	margin-bottom: 0;
+	border-top: 2px solid darkgreen;
+	padding: 2px;
+}
+#footer .footertxt
+{
+	text-align: center;
+	color: darkgreen;
+}
+
+.pic1
+{
+	position: absolute;
+	left: 398px;
+	top: 0;
+	width: 91px;
+	height: 150px;
+}
+.pic2
+{
+	position: absolute;
+	left: 517px;
+	top: 0;
+	width: 91px;
+	height: 150px;
+}
+.pic3
+{
+	position: absolute;
+	left: 638px;
+	top: 0;
+	width: 91px;
+	height: 150px;
+}
+.pic4
+{
+	position: absolute;
+	left: 751px;
+	top: 0;
+	width: 91px;
+	height: 150px;
+}
+.pic5
+{
+	position: absolute;
+	left: 857px;
+	top:0;
+	width: 91px;
+	height: 150px;
+}
